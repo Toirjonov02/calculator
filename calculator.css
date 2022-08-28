@@ -1,0 +1,81 @@
+
+.container{
+	width: 450px;
+	/*height:450px;*/
+	border: 3px double black;
+	margin: 0 auto;
+	background-color:black;
+}
+.container .row{
+	width: 430px;
+	/*height: 350px;*/
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+}
+.container .row input	{
+	width: 420px;
+	height: 50px;
+	/*border: 1px solid black;*/
+	font-size: 50px;
+	color: black;
+	background-color: white;
+	border-radius: 5%;
+	margin: 5px auto;
+}
+.container .row button{
+	width: 85px;
+	height: 85px;
+	/*border: 1px solid black;*/
+	background-color: white;
+	color: black;
+	font-size: 45px;
+	text-align: center;
+	outline: none;
+	border-radius: 100%;
+}
+.container .row button:hover{
+	background-color: black;
+	color: red;
+	transition: 1s all;
+}
+.container .row input:hover{
+	background-color: black;
+	color: red;
+	transition: 1s all;
+}
+.circle_1{
+	/*border: 1px solid red;*/
+	width: 380px;
+	margin: 5px auto;
+}
+.circle_2{
+	/*border: 1px solid red;*/
+	width: 380px;
+	margin: 5px auto;
+}
+.circle_3{
+	/*border: 1px solid red;*/
+	width: 380px;
+	margin: 5px auto;
+}
+.circle_4{
+	/*border: 1px solid red;*/
+	width: 380px;
+	margin: 5px auto;
+}
+.circle_5{
+	/*border: 1px solid red;*/
+	width: 380px;
+	margin: 5px auto;
+}
+ .container .row .circle_5 .zero{
+	width: 230px;
+	height: 90px;
+	border-radius: 15% ;
+}
+ .container .row .circle_5 button{
+ 	width: 130px;
+	height: 90px;
+	border-radius: 15% ;
+
+ }

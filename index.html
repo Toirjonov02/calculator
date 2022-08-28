@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculator</title>
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+<!-- <h1>Toirjonov_02</h1> -->
+<br><br><br><br>
+<div class="container">
+<div class="row"><br><br><br>
+<br><br>
+<input type="text" name="" id="text" disabled=""> <br><br>
+<div class="circle_1">
+<button onclick="aktiv(this);" value="*">&times;</button>
+<button onclick="aktiv(this);" value="/">&divide;</button>
+<button onclick="aktiv(this);" value="-">-</button>
+<button onclick="aktiv(this);" value="+">+</button>
+</div>
+<div class="circle_2">
+<button onclick="aktiv(this);" value="7">7</button>
+<button onclick="aktiv(this);" value="8">8</button>
+<button onclick="aktiv(this);" value="9">9</button>
+<button onclick="tozalash()" class="clear">C</button>
+</div>
+<div class="circle_3">
+<button onclick="aktiv(this);" value="4">4</button>
+<button onclick="aktiv(this);" value="5">5</button>
+<button onclick="aktiv(this);" value="6">6</button>
+<button onclick="back();" value="">&larr;</button>
+<button onclick="aktiv(this);" value="1">1</button>
+<button onclick="aktiv(this);" value="2">2</button>
+<button onclick="aktiv(this);" value="3">3</button>
+<button onclick="rate();" value="%">%</button>
+</div>
+<div class="circle_4">
+<button onclick="aktiv(this);" value="(">(</button>
+<button onclick="aktiv(this);" value=")">)</button>
+<button onclick="aktiv(this);" value="-">+/-</button>
+<button onclick="aktiv(this);" value=".">.</button>
+</div>
+<div class="circle_5">
+<button onclick="aktiv(this);" value="0" class="zero">0</button>
+<button onclick="hisobla()">=</button>
+</div>
+
+</div>
+</div>
+<script src="calculator.js"></script>
+</body>
+</html>
